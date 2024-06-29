@@ -12,13 +12,13 @@ body, button, input, a, ul{
 }
 
 body{
-    background: radial-gradient(rgb(68, 1, 255), rgb(30, 154, 255));
+    background: radial-gradient(rgb(66, 28, 173), rgb(1, 30, 53));
 }
 
 
 .container {
     max-width: 600px;
-    min-width: 50%;
+    min-width: 20%;
     height: 100vh;
     margin: auto;
 }
@@ -38,27 +38,46 @@ body{
 .profile h2{
     margin-top: 25px;
 }
+.profile p{
+    opacity: 90%
+}
+
+
+.card{
+    padding: 24px;
+}
+
 
 .link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    margin-top: -48px;
+    margin-bottom: 24px;
+
+   
 }
 
+
 .link a{
-  color: #222;
-  font-size: 24px;
-  text-align: center;
-  background-color: #eaeaea;
-  border-radius: 7px;
-  margin: 12px 16px;
-  padding: 10px;
-  text-transform: uppercase;
-  font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #302f2f;
+    font-size: 24px;
+    text-align: center;
+    background-color: #e2e0e0;
+    border-radius: 7px;
+    margin: 12px 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+
 }
+
         
 footer{
     text-align: center;
-    color: white;
+    opacity: 50%;
+    color: rgb(235, 235, 235);
 }
